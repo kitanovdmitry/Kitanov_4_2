@@ -57,6 +57,7 @@ int main()
             sin_x = 0.0;
             break;
         }
+        
         sin_x = sin_x + (pow(-1, n) * pow(x, 2*n+1)) / factorial(2*n+1);
         cout << sin_x << "\n";
     }
