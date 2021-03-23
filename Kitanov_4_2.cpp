@@ -44,7 +44,7 @@ int main()
     cout << "x = " << x << " radians\n";
 
     int k = x / (2*M_PI);
-    x = x - 2*M_PI * k; // sin(x + 2*pi*k) = sin(x)//
+    x = x - 2*M_PI * k; // sin(x + 2*pi*k) = sin(x) //
 
     const int row_border = 200;
     long double sin_x = 0.0;
