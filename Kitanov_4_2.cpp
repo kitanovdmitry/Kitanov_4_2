@@ -40,10 +40,10 @@ int main()
     while (typeFail);
 
     cout << "x = " << x << " degrees\n";
-    x = x * M_PI/ 180.0;
+    x = x * M_PI / 180.0;
     cout << "x = " << x << " radians\n";
 
-    int k = x/(2*M_PI);
+    int k = x / (2*M_PI);
     x = x - 2*M_PI * k; // sin(x + 2*pi*k) = sin(x)//
 
     const int row_border = 200;
