@@ -8,7 +8,7 @@
 #include <iostream>
 #include <cmath>
 #include <climits>
-#define _USE_MATH_DEFINES //the program works without it, but on some platforms it is necessary//
+#define _USE_MATH_DEFINES // the program works without it, but on some platforms it is necessary //
 
 using namespace std;
 long double factorial(int number)
@@ -52,7 +52,7 @@ int main()
 
     for (int n = 0; n < row_border; n++)
     {
-        if (angle_180_degrees) //because when calculated by the formula, the result will be very close to zero: sin(x) = 1.227e-16//
+        if (angle_180_degrees) // because when calculated by the formula, the result will be very close to zero: sin(x) = 1.227e-16 //
         {
             sin_x = 0.0;
             break;
